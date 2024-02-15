@@ -9,7 +9,6 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
-// import { Switch } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
