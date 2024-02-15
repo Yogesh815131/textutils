@@ -85,9 +85,6 @@ export default function TextForm(props) {
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleCapitalizeClick}>Capitalize Case</button>
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleCopyClick}>Copy Text</button>
            
-           
-
-
         </div>
         <div className='container my-3' style={{color: props.mode === 'light'? '#042743':'white'}}>
             <h2>Your text summary</h2>
