@@ -69,6 +69,9 @@ export default function TextForm(props) {
         setText(event.target.value)
     }
 
+    const darkMode = ()=>{
+
+    }
 
     const [text, setText] = useState("");
     return (
@@ -84,6 +87,7 @@ export default function TextForm(props) {
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleClearClick}>Clear Text</button>
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleCapitalizeClick}>Capitalize Case</button>
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleCopyClick}>Copy Text</button>
+            <button className="btn btn-primary mx-2 my-1" >Dark Mode</button>
            
         </div>
         <div className='container my-3' style={{color: props.mode === 'light'? '#042743':'white'}}>
